@@ -13,7 +13,8 @@
 
 With **DevTools**, you can gain deep insights into your code execution while improving debugging efficiency.
 
-[!INFO] Currently, the library offers partial support for both synchronous and asynchronous functions. I originally developed it for my own debugging purposes, but if anyone finds it useful, feel free to use it, fork the codebase or make any changes you'd like. You have full freedom to modify and adapt it as needed.
+> [!NOTE] 
+> Currently, the library offers partial support for both synchronous and asynchronous functions. I originally developed it for my own debugging purposes, but if anyone finds it useful, feel free to use it, fork the codebase or make any changes you'd like. You have full freedom to modify and adapt it as needed.
 
 ---
 
@@ -44,7 +45,8 @@ def test_function():
     return z
 ```
 
-[!TIP] Use this decorator to understand the flow of function calls and track variable changes at each step.
+> [!TIP] 
+> Use this decorator to understand the flow of function calls and track variable changes at each step.
 
 ---
 
@@ -69,7 +71,8 @@ def test_function():
 - `(c) continue` → Continue execution until the next breakpoint
 - `(q) quit` → Stop debugging
 
-[!TIP] This is useful for troubleshooting complex logic.
+> [!TIP] 
+> This is useful for troubleshooting complex logic.
 
 ---
 
@@ -88,7 +91,8 @@ def test_function():
     return x
 ```
 
-[!TIP] Identify slow-performing parts of your application easily!
+> [!TIP] 
+> Identify slow-performing parts of your application easily!
 
 ---
 
@@ -116,7 +120,8 @@ def test_function():
 🔍 Total Memory Used: 78.23 KB
 ```
 
-[!TIP] Use this to optimize large data processing functions.
+> [!TIP] 
+> Use this to optimize large data processing functions.
 
 ---
 
@@ -135,7 +140,8 @@ def test_function():
     return x
 ```
 
-[!TIP] This is useful for production environments where you want to log errors instead of stopping execution.
+> [!TIP] 
+> This is useful for production environments where you want to log errors instead of stopping execution.
 
 ---
 
@@ -154,7 +160,8 @@ def test_function():
     print("Function completed")
 ```
 
-[!TIP] Ideal for running time-consuming tasks without freezing your main application.
+> [!TIP] 
+> Ideal for running time-consuming tasks without freezing your main application.
 
 ---
 
@@ -172,7 +179,8 @@ def test_function():
     return response
 ```
 
-[!TIP] Useful for **unstable API calls** or functions that may occasionally fail.
+> [!TIP] 
+> Useful for **unstable API calls** or functions that may occasionally fail.
 
 ---
 
@@ -187,7 +195,6 @@ with RequestLogger(log_to="requests.log", iterations=3) as logger:
     response = logger.request("GET", "https://example.com")
 ```
 
-[!TIP] Use this for **API performance monitoring** and debugging.
-
----
+> [!TIP] 
+> Use this for **API performance monitoring** and debugging.
 
