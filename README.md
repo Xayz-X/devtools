@@ -22,7 +22,7 @@ With **DevTools**, you can gain deep insights into your code execution while imp
 
 Install using pip:
 ```bash
-pip install ...
+pip install https://github.com/Xayz-X/devtools.git
 ```
 
 ## 🚀 Features & Usage
@@ -44,6 +44,9 @@ def test_function():
     print(f"Result: {z}")
     return z
 ```
+**Showcase:**
+
+![dbg](examples/dbg.png)
 
 > [!TIP] 
 > Use this decorator to understand the flow of function calls and track variable changes at each step.
@@ -57,7 +60,7 @@ The `step_debugger` decorator enables **interactive debugging**, allowing you to
 ```python
 from devtools import step_debugger
 
-@step_debugger(breakpoint_line=3)
+@step_debugger(breakpoint_line=5)
 def test_function():
     x = 5
     y = 10
@@ -65,6 +68,9 @@ def test_function():
     print(f"Result: {z}")
     return z
 ```
+**Showcase:**
+
+![dbg](examples/step_dbg.png)
 
 🔹 **Commands Available:**
 - `(n) next` → Move to the next step
